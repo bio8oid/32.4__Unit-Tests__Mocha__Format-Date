@@ -1,6 +1,8 @@
 const assert = require('assert');
 const formatDate = require('./index');
 
+
+
 describe('formatDate', () => {
     describe('seconds', () => {
         it('should return seconds', () => {
@@ -87,4 +89,5 @@ describe('formatDate', () => {
             assert.equal(actual, expected);
         });
     });
+    console.log(msg);
 });
